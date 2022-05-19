@@ -24,7 +24,7 @@ D'abord télécharge le fichier ISO sur:
 [https://asterisk.org/downloads/]()
 
 
-![clipboard.png](lRol50Asg-clipboard.png)
+![images](https://github.com/Pyncro/sisr-VoIP/blob/main/dlam/img/Capture%20site.png)
 
 
 Pourquoi choisir Asteriks au lieu de ses concurrents ?
@@ -39,23 +39,23 @@ Pourquoi choisir Asteriks au lieu de ses concurrents ?
 
 On va utiliser Hyper-V comme VM.
 
-![clipboard.png](ZHPNrYLKu-clipboard.png)
+![images](https://github.com/Pyncro/sisr-VoIP/blob/main/dlam/img/hyperv.JPG)
 
 Changer les ports ethernet en retirant le default switch principal et en ajoutant une carte réseau héritée **(ceci permet d'éviter le problème ultérieur avec Freepbx et le commutateur par défaut, pour une raison inconnue, il a des problèmes pour reconnaître le commutateur par défaut.)**
-![clipboard.png](wm7oKGjX5-clipboard.png)
+![images](https://github.com/Pyncro/sisr-VoIP/blob/main/dlam/img/ethernet%20port.PNG)
 
 
 
 Choissisez < **Fully Automatic Installation - Output to VGA** >
-![clipboard.png](wRwpoR_WC-clipboard.png)
+![images](https://github.com/Pyncro/sisr-VoIP/blob/main/dlam/img/Capturer.PNG)
 mot de passe 'SangomaDefaultPassword'
 
 
 Un address IP est fournis.
-![clipboard.png](9NoDndLHF-clipboard.png)
+![images](https://github.com/Pyncro/sisr-VoIP/blob/main/dlam/img/freepbxmenu.PNG)
 
 Après avoir connu votre adresse IP , ping l'ip a l'aide de votre invite de commande (CMD).
-![clipboard.png](6oRPtxzta-clipboard.png)
+![images](https://github.com/Pyncro/sisr-VoIP/blob/main/dlam/img/cmd%20ping.PNG)
 
 # Configuration Freepbx
 
@@ -63,15 +63,15 @@ Connecter vous a votre address IP et créer votre mot de passe.
 
 Username: Shibuya 
 Password : Jjk@2022
-![clipboard.png](jdUTNycIB-clipboard.png)
+![images](https://github.com/Pyncro/sisr-VoIP/blob/main/dlam/img/Capturer5.PNG)
 Vous pouvez ensuite créer votre propre extension de VoIP.
-![clipboard.png](9dfxHr4Z7-clipboard.png)
+![images](https://github.com/Pyncro/sisr-VoIP/blob/main/dlam/img/extension.PNG)
 
 # VoIP phone configuration
 
 Brancher votre téléphone VoIP en mode POE puis puis trouver l'adresse IP
 
-![clipboard.png](A2IMSJb7G-clipboard.png)
+![images](https://github.com/Pyncro/sisr-VoIP/blob/main/dlam/img/IMG_5372%20Moyenne.png)
 
 Entrez l'ip dans votre navigateurs
 
@@ -81,4 +81,4 @@ mot de passe: 22222
 
 
 Vous pouvez maintenant configurer vos lignes téléphoniques.
-![clipboard.png](m1tqghiGt-clipboard.png)
+![images](https://github.com/Pyncro/sisr-VoIP/blob/main/dlam/img/Mitel.png)
